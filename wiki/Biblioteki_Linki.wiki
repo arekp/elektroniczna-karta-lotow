@@ -10,5 +10,5 @@ Wszystkie informacje jakie znalazłem w sieci do stworzenia projektu
 
 Lista miejsc w sieci skąd pobrałem biblioteki do poszczególnych modułów :
   * BMP 085 nowa lokalizacja biblioteki. [http://code.google.com/p/bmp085driver/]
-  * Biblioteka do zegara [https://github.com/adafruit/RTClib]
+  * Biblioteka do zegara [http://www.dfrobot.com/wiki/index.php?title=Real_Time_Clock_Module_%28DS1307%29_%28SKU:DFR0151%29] i druga [https://github.com/adafruit/RTClib]
   * Automatic links to other wiki pages
