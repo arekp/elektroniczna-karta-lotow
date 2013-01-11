@@ -1,0 +1,14 @@
+#summary Zamieszczać tu będę przydatne linki do miejsc które pomogły mi w projekcie
+#labels linki,biblioteki,arduino,parolotnia,variometr
+
+= Start =
+
+Wszystkie informacje jakie znalazłem w sieci do stworzenia projektu
+
+
+= Biblioteki =
+
+Lista miejsc w sieci skąd pobrałem biblioteki do poszczególnych modułów :
+  * BMP 085 nowa lokalizacja biblioteki. [http://code.google.com/p/bmp085driver/]
+  * Biblioteka do zegara [https://github.com/adafruit/RTClib]
+  * Automatic links to other wiki pages
