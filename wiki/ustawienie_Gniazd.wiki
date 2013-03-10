@@ -1,0 +1,17 @@
+#summary Lista PIN-ow do poszczególnych elementów
+
+= Opis =
+
+LCD Nokia 5110
+
+
+= lista =
+Połączenia dla noki 5110
+ * 1- rst - 3
+ * 2 -ce - 4
+ * 3- dc - 5
+ * 4- din - 6
+ * 5- clk - 7
+ * 6- vcc
+ * 7- light
+ * 8- gnd
