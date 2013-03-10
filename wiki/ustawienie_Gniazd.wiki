@@ -4,9 +4,9 @@
 
 LCD Nokia 5110
 
-
-= lista =
+== Nokia 5110 ==
 Połączenia dla noki 5110
+ * nr_pin_lcd - Nazwa - nr_pin_arduino
  * 1- rst - 3
  * 2 -ce - 4
  * 3- dc - 5
@@ -15,3 +15,20 @@ Połączenia dla noki 5110
  * 6- vcc
  * 7- light
  * 8- gnd
+ * 3,3 V 
+
+== SD Card ==
+ * Connect CLK to pin 13  
+ * Connect DO to pin 12 
+ * Connect DI to pin 11 
+ * Connect CS to pin 10  
+ * 3,3 V
+
+= I2C =
+ * BMP085 - 3,3 V
+ * RTC module - 5 V
+
+ * A4 - SDA
+ * A5 - SCL
+
+
