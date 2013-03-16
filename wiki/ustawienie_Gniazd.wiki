@@ -32,3 +32,24 @@ Połączenia dla noki 5110
  * A5 - SCL
 
 
+// Connect VCC of the BMP085 sensor to 3.3V (NOT 5.0V!)
+// Connect GND to Ground
+// Connect SCL to i2c clock - on '168/'328 Arduino Uno/Duemilanove/etc thats Analog 5
+// Connect SDA to i2c data - on '168/'328 Arduino Uno/Duemilanove/etc thats Analog 4
+// EOC is not used, it signifies an end of conversion
+// XCLR is a reset pin, also not used here
+/////////////SD card
+//GND
+//uint8_t const MISO_PIN = 12; MISO - 12
+//uint8_t const SCK_PIN = 13; SCK - 13
+//uint8_t const MOSI_PIN = 11; MOSI - 11
+//uint8_t const SS_PIN = 10; -> CS - 10
+// 5V
+// 3V
+// GND
+
+// pin 7 - Serial clock out (SCLK)
+// pin 6 - Serial data out (DIN)
+// pin 5 - Data/Command select (D/C)
+// pin 4 - LCD chip select (CS)
+// pin 3 - LCD reset (RST)
