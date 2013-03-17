@@ -1,6 +1,6 @@
 #summary Lista PIN-ow do poszczególnych elementów
 
-= Opis =
+= SPI =
 
 LCD Nokia 5110
 
