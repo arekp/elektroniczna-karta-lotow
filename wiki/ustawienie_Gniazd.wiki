@@ -2,6 +2,16 @@
 
 = SPI =
 
+|| Nazwy || Nokia (numer goldpina) || SD card (numer goldpina) ||NR Gniazda ||
+||DIN-DI-MISO ||4 || 2 || 11 ||
+
+||DC-DO-MOSI || 3 || 4 || 12 ||
+
+||CLK-CLK-SCK || 5 || 3 || 13 ||
+
+||CE-CS-SS || 2  ||  5 || 4/10 ||
+|| RST || 1 || || ||
+
 LCD Nokia 5110
 
 == Nokia 5110 ==
