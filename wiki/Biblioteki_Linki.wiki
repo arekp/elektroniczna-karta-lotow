@@ -12,3 +12,4 @@ Lista miejsc w sieci skąd pobrałem biblioteki do poszczególnych modułów :
   * BMP 085 nowa lokalizacja biblioteki. [http://code.google.com/p/bmp085driver/]
   * Biblioteka do zegara [http://www.dfrobot.com/wiki/index.php?title=Real_Time_Clock_Module_%28DS1307%29_%28SKU:DFR0151%29] i druga [https://github.com/adafruit/RTClib]
   * Biblioteki dla karty SD [https://github.com/adafruit/SD]
+  * Prezentacja podpięcia wyświetlacza Nokia 5110 i SDCard [http://www.emartee.com/product/42193/Nokia%205110%20LCD%20Shield%20With%20SD]
