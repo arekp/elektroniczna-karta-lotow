@@ -1,5 +1,7 @@
 #summary Jak podłączyć do xcsoar
 
+GPS - NMEA sentence information
+
 = Instraukcje =
 
 Znaleziony mail z forum jak to przekazywać.
