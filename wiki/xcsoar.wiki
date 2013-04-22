@@ -2,6 +2,8 @@
 
 GPS - NMEA sentence information
 
+https://sites.google.com/site/lotronikpl/home/blurio
+
 = Instraukcje =
 
 Znaleziony mail z forum jak to przekazywać.
