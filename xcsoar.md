@@ -1,0 +1,38 @@
+GPS - NMEA sentence information
+
+https://sites.google.com/site/lotronikpl/home/blurio
+
+# Instraukcje #
+
+Znaleziony mail z forum jak to przekazywać.
+
+
+
+I asked Flymaster about the NMEA documentation. Here is the answer:
+
+"Hi Bjørn,
+
+The only NMEA sentence output during navigation that is specific sent to F1 is the vario
+and barometric altitude:
+
+$VARIO,fPressure,fVario,Bat1Volts,Bat2Volts,BatBank,TempSensor1,TempSensor2\*CS
+
+Where:
+fPressure = the absolute atmospheric pressure, converting to altitude use the following:
+> fBarAltitude = (1 - pow(fabs(fPressure / fQNH),  0.190284)) **44307,69;**
+
+fVario = the variometer in m/s
+Bat1Volts = the voltage of the battery in bank 1
+Bat2Volts = the voltage of the battery in bank 2
+BatBank = the battery bank in use.
+TempSensor1 = temperature in ºC of external wireless sensor 1
+TempSensor2 = temperature in ºC of external wireless sensor 2
+CS = the standard NMEA checksum.
+
+This sentence is sent at 2hz (i.e. 2 times a second).
+
+The rest of the sentences are all standard NMEA GPS stuff ($GPRMC, $GPGGA, etc...)
+
+
+Best regards,
+Cristiano"
